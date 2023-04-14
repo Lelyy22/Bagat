@@ -50,6 +50,13 @@ header {
   font-size: 16px;
 }
 
+.header__nav-link > a:hover {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #83BB32;
+}
+
 main {
   margin-top: 85px;
   margin-bottom: 120px;
