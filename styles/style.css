@@ -9,6 +9,7 @@
   font-style: normal;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body, html {
@@ -28,9 +29,13 @@ header {
   position: relative;
 }
 
-.header__logo > img {
-  margin-top: 12px;
-}
+.header__logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160.19%;
+  color: #83BB32;
+}  
 
 .header__nav {
   display: flex;
@@ -42,8 +47,14 @@ header {
 
 .header__nav-link > a {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
+}
+
+.header__nav-link > a:hover {
+  font-style: normal;
+  font-size: 16px;
+  color: #83BB32;
 }
 
 main {
@@ -78,8 +89,12 @@ main p > span {
 .main__img {
   position: absolute;
   top: -14px;
-  right: -250px;
+  right: -251px;
   margin-bottom: 90px;
+}
+
+.main__img > img {
+  width: 1000px;
 }
 
 .services {
