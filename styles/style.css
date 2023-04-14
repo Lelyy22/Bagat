@@ -28,9 +28,13 @@ header {
   position: relative;
 }
 
-.header__logo > img {
-  margin-top: 12px;
-}
+.header__logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160.19%;
+  color: #83BB32;
+}  
 
 .header__nav {
   display: flex;
