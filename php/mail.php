@@ -60,7 +60,7 @@
     $message .= "<p><b>Дополнительная информация:</b> " . $addInf . "</p>";
     $message .= "<p><b>Город оплаты:</b> " . $cityPay . "</p>";
     $headers ="From: $emailPayer\r\nReply-to: $emailPayer\r\nContent-type: text/html; charset=utf-8\r\n";
-    $success = mail("EMAIL", $subject, $message, $headers);
+    $success = mail("admin@groupbagat.ru", $subject, $message, $headers);
     header("Location: ../index.html");
     
 ?>
